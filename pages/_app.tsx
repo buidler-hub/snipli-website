@@ -4,14 +4,22 @@ import '@fontsource/syncopate/400.css';
 import '@fontsource/syncopate/700.css';
 import { NextSeo } from 'next-seo';
 import { AppProps } from 'next/app';
-import Head from 'next/head';
+import Script from 'next/script';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
     return (
         <>
-            <Head>
-                <link rel="icon" type="image/svg" href="/assets/logo.svg" />
-            </Head>
+            {process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL &&
+                process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && (
+                    <Script
+                        src={process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL}
+                        data-website-id={
+                            process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID
+                        }
+                        strategy="lazyOnload"
+                    />
+                )}
+
             <NextSeo
                 title="Snipli"
                 titleTemplate="Snipli"
