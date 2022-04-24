@@ -35,6 +35,7 @@ const Header: NextComponentType = () => {
                 isExternal
                 textColor="gray.50"
                 _hover={{ textColor: 'gray.200' }}
+                zIndex="1"
             >
                 <BsGithub size="25" />
             </Link>
