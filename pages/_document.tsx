@@ -5,6 +5,10 @@ const Document = () => {
         <Html lang="en">
             <Head>
                 <link rel="icon" type="image/svg" href="/assets/logo.svg" />
+                <meta
+                    property="og:image"
+                    content="https://snipli.vercel.app/assets/og.png"
+                />
             </Head>
             <body>
                 <Main />

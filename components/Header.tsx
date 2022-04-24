@@ -14,7 +14,12 @@ const Header: NextComponentType = () => {
             width="100%"
         >
             <Flex alignItems="center" gap="2">
-                <Image src="/assets/logo.svg" height="8" width="8" />
+                <Image
+                    src="/assets/logo.svg"
+                    alt="Snipli"
+                    height="8"
+                    width="8"
+                />
                 <Text
                     textColor="#fff"
                     fontFamily="body"

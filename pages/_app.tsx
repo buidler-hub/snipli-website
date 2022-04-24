@@ -33,7 +33,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                         'Convert your local files into a gist in just a snap',
                     images: [
                         {
-                            url: '/assets/og.png',
+                            url: 'https://snipli.vercel.app/assets/og.png',
                             width: 1200,
                             height: 630,
                             alt: 'Snipli',
