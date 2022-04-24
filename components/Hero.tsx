@@ -1,35 +1,48 @@
 import Terminal from './Terminal';
-import { Flex, Image, Text } from '@chakra-ui/react';
+import { Flex, Text, Button } from '@chakra-ui/react';
 import type { NextComponentType } from 'next';
 
 const Hero: NextComponentType = () => {
     return (
-        <Flex flexDir="column" position="relative" w="100%" marginTop="-150px">
-            <Image
-                alt=""
-                height={['200', '600']}
-                src="/assets/blob.svg"
-                mx="auto"
-            />
-            <Flex
-                position="absolute"
-                w="100%"
-                alignItems="center"
-                justifyContent="center"
+        <Flex
+            flexDir="column"
+            position="relative"
+            justifyContent="center"
+            alignItems="center"
+            gap="6"
+            w="100%"
+            bgImage="url(/assets/blob.svg)"
+            h="100vh"
+        >
+            <Text
+                textAlign="center"
+                fontFamily="body"
+                fontWeight="700"
+                bgGradient="linear(90deg, #5433FF 0%, #20BDFF 50%, #A5FECB 100%)"
+                bgClip="text"
+                fontSize="40px"
+                lineHeight="10"
+                mt="12"
+                letterSpacing="4"
             >
-                <Text
-                    bgGradient="linear(to-r, #5433FF, #20BDFF, #A5FECB)"
-                    bgClip="text"
-                    as="h1"
-                    fontSize={['20', '64']}
-                    fontWeight="extrabold"
-                    maxW={['80%', '1000px']}
-                    textAlign="center"
-                    mt="25px"
-                >
-                    Convert your local files into a gist in just a snap
-                </Text>
-            </Flex>
+                convert your local <br />
+                files into a gist in <br />
+                just a snap
+            </Text>
+            <Button
+                _focus={{}}
+                fontFamily="body"
+                fontWeight="700"
+                textColor="white"
+                bgColor="blue.600"
+                _hover={{ bgColor: 'blue.500' }}
+                _active={{ bgCoor: 'blue.400' }}
+                w="40"
+                h="10"
+                boxShadow="1px 1px 10px 4px rgba(59, 130, 246, 0.25);"
+            >
+                TRY OUT
+            </Button>
             <Terminal />
         </Flex>
     );
