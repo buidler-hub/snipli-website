@@ -1,5 +1,6 @@
 import Header from '../components/Header';
-import { Flex, Image } from '@chakra-ui/react';
+import Hero from '../components/Hero';
+import { Flex } from '@chakra-ui/react';
 import { FC } from 'react';
 
 const Home: FC = () => {
@@ -14,15 +15,7 @@ const Home: FC = () => {
             background="black"
         >
             <Header />
-            <Image
-                position="absolute"
-                width="920"
-                alt=""
-                height="750"
-                objectFit="contain"
-                src="/assets/blob.svg"
-                zIndex="50"
-            />
+            <Hero />
         </Flex>
     );
 };

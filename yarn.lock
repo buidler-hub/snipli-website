@@ -1146,6 +1146,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/syncopate@^4.5.7":
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/syncopate/-/syncopate-4.5.7.tgz#9d03e0c44e52647e066a0b719926da607f4e1f49"
+  integrity sha512-rXokyXrCajcX4OeCNK6qPWoQHOkCkcHTKjAMEsab8lu+jnUNCaPkt/tBH6BdUAYLeibiK9Wl3oVICviMTqVCqg==
+
 "@gitmoji/commit-types@1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@gitmoji/commit-types/-/commit-types-1.1.5.tgz#8ca89aeea4e253a3818ac63206b4eb4f2352c4ff"

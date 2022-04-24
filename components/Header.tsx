@@ -1,5 +1,5 @@
 import GitHubIcon from './Icons';
-import { Flex, Text } from '@chakra-ui/react';
+import { Flex, Link, Text } from '@chakra-ui/react';
 import type { NextComponentType } from 'next';
 
 const Header: NextComponentType = () => {
@@ -16,7 +16,9 @@ const Header: NextComponentType = () => {
             <Text fontSize="xl" fontWeight="bold" color="white">
                 SNIPLI
             </Text>
-            <GitHubIcon />
+            <Link isExternal href="https://github.com/Kira272921/snipli/">
+                <GitHubIcon />
+            </Link>
         </Flex>
     );
 };

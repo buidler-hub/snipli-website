@@ -1,5 +1,6 @@
 import theme from '../theme';
 import { ChakraProvider } from '@chakra-ui/react';
+import '@fontsource/syncopate';
 import { NextSeo } from 'next-seo';
 import { AppProps } from 'next/app';
 
@@ -10,12 +11,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 title="Snipli"
                 titleTemplate="Snipli"
                 defaultTitle="Snipli"
-                description="Make your local files a gist in just a snap"
+                description="Convert your local files into a gist in just a snap"
                 canonical="https://snipli.live"
                 openGraph={{
                     url: 'https://snipli.live',
                     title: 'Snipli',
-                    description: 'Make your local files a gist in just a snap',
+                    description:
+                        'Convert your local files into a gist in just a snap',
                     images: [],
                 }}
                 twitter={{
