@@ -1,13 +1,14 @@
 import { Flex, Link, Text, Image } from '@chakra-ui/react';
 import type { NextComponentType } from 'next';
 import { BsGithub } from 'react-icons/bs';
+import { DiNpm } from 'react-icons/di';
 
 const Header: NextComponentType = () => {
     return (
         <Flex
             position="absolute"
             top="0"
-            px="14"
+            px={['5', '14']}
             py="6"
             justifyContent="space-between"
             alignItems="center"
@@ -30,15 +31,29 @@ const Header: NextComponentType = () => {
                 </Text>
             </Flex>
 
-            <Link
-                href="https://github.com/Kira272921/snipli/"
-                isExternal
-                textColor="gray.50"
-                _hover={{ textColor: 'gray.200' }}
-                zIndex="1"
-            >
-                <BsGithub size="25" />
-            </Link>
+            <Flex>
+                <Link
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    isExternal
+                    textColor="gray.50"
+                    _hover={{ textColor: 'gray.200' }}
+                    zIndex="1"
+                    mr="4"
+                    mt="-7px"
+                >
+                    <DiNpm size="50" />
+                </Link>
+
+                <Link
+                    href="https://github.com/Kira272921/snipli/"
+                    isExternal
+                    textColor="gray.50"
+                    _hover={{ textColor: 'gray.200' }}
+                    zIndex="1"
+                >
+                    <BsGithub size="35" />
+                </Link>
+            </Flex>
         </Flex>
     );
 };

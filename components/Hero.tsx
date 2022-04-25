@@ -20,7 +20,7 @@ const Hero: NextComponentType = () => {
                 fontWeight="700"
                 bgGradient="linear(90deg, #5433FF 0%, #20BDFF 50%, #A5FECB 100%)"
                 bgClip="text"
-                fontSize="40px"
+                fontSize={['22px', '40px']}
                 lineHeight="10"
                 mt="12"
                 letterSpacing="4"

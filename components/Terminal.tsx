@@ -4,7 +4,7 @@ import type { NextComponentType } from 'next';
 const Terminal: NextComponentType = () => {
     return (
         <Box
-            w="md"
+            w={['90%', 'md']}
             h="64"
             bgColor="black"
             rounded="md"
