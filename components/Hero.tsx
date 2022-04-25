@@ -36,7 +36,7 @@ const Hero: NextComponentType = () => {
                 textColor="white"
                 bgColor="blue.600"
                 _hover={{ bgColor: 'blue.500' }}
-                _active={{ bgCoor: 'blue.400' }}
+                _active={{ bgColor: 'blue.400' }}
                 w="40"
                 h="10"
                 boxShadow="1px 1px 10px 4px rgba(59, 130, 246, 0.25);"

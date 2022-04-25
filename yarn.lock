@@ -1146,6 +1146,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/nanum-pen-script@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@fontsource/nanum-pen-script/-/nanum-pen-script-4.5.3.tgz#e414d39023bb4b1bf940a3e54cf48f73c5bc184b"
+  integrity sha512-TdTs77+Cisjwn5JCbj5sCUDDOTQNT3GSQXb9DMCNh7CzrdN4ZAVJIM1e8d7RmRoRETE2YvZfabdY/4yxhVTMzw==
+
 "@fontsource/syncopate@^4.5.7":
   version "4.5.7"
   resolved "https://registry.yarnpkg.com/@fontsource/syncopate/-/syncopate-4.5.7.tgz#9d03e0c44e52647e066a0b719926da607f4e1f49"

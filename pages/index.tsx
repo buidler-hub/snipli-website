@@ -1,9 +1,9 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import { Flex } from '@chakra-ui/react';
-import { FC } from 'react';
+import type { NextPage } from 'next';
 
-const Home: FC = () => {
+const Home: NextPage = () => {
     return (
         <Flex
             flexDir="column"

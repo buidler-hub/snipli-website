@@ -18,6 +18,7 @@
         "@chakra-ui/react": "^1.8.6",
         "@emotion/react": "^11.8.2",
         "@emotion/styled": "^11.8.1",
+        "@fontsource/nanum-pen-script": "^4.5.3",
         "@fontsource/syncopate": "^4.5.7",
         "framer-motion": "^6.2.8",
         "next": "latest",
