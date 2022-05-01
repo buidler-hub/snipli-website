@@ -1,5 +1,7 @@
 # 🦄 snipli-website
 
+![og image](https://user-images.githubusercontent.com/76690419/166135561-3e25ced2-fe8c-41e4-b236-f4fd32f20313.png)
+
 This repository contains the code for snipli's website
 
 🎉 **Core repository**: https://github.com/kira272921/snipli
