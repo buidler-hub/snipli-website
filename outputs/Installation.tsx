@@ -8,7 +8,7 @@ const Installation = () => {
     const [isDone2, setIsDone2] = useState(false);
 
     return (
-        <Flex flexDir="column" fontSize="lg">
+        <Flex flexDir="column" fontSize={['md', 'lg']}>
             <CommandText
                 command="npm i -g snipli"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}

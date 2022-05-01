@@ -8,7 +8,7 @@ const Id = () => {
     const [isDone2, setIsDone2] = useState(false);
 
     return (
-        <Flex flexDir="column" fontSize="lg">
+        <Flex flexDir="column" fontSize={['md', 'lg']}>
             <CommandText
                 command="snipli id -l=https://gist.github.com/Kira272921/bfce776b3ad1145f764d89c296fec605"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}

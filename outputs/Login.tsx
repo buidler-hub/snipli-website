@@ -8,7 +8,7 @@ const Login = () => {
     const [isDone2, setDone2] = useState(false);
 
     return (
-        <Flex flexDir="column" fontSize="lg">
+        <Flex flexDir="column" fontSize={['md', 'lg']}>
             <CommandText
                 command="snipli login"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}

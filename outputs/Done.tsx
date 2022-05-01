@@ -10,7 +10,7 @@ const Done = () => {
     const [isDone3, setIsDone3] = useState(false);
 
     return (
-        <Flex flexDir="column" fontSize="lg">
+        <Flex flexDir="column" fontSize={['md', 'lg']}>
             <CommandText
                 command="Successfully authenticated"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}

@@ -9,7 +9,7 @@ interface ITerminalProps {
 const Terminal: FC<ITerminalProps> = ({ children }) => {
     return (
         <Box
-            minW={['90%', '2xl']}
+            minW={['80vw', '80vw', 'lg', '2xl']}
             minH="64"
             bgColor="black"
             rounded="md"
@@ -17,6 +17,7 @@ const Terminal: FC<ITerminalProps> = ({ children }) => {
             boxShadow="-2px 5px 54px 9px rgba(67, 25, 156, 0.25)"
             fontFamily='"Fira Code", monospace'
             color="gray.100"
+            maxW={['90vw', '70vw']}
         >
             <Flex gap="3">
                 <TerminalButton color="red.500" />

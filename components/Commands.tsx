@@ -66,7 +66,7 @@ const Commands: NextComponentType<NextPageContext, {}, Props> = () => {
             </Flex>
             <Box
                 display="grid"
-                gridTemplateColumns="repeat(3, 1fr)"
+                gridTemplateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)']}
                 justifyItems="center"
                 mt="5"
                 gap="2"

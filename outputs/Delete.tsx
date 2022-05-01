@@ -8,7 +8,7 @@ const Delete = () => {
     const [isDone2, setIsDone2] = useState(false);
 
     return (
-        <Flex flexDir="column" fontSize="lg">
+        <Flex flexDir="column" fontSize={['md', 'lg']}>
             <CommandText
                 command="snipli delete -i=...605"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}
