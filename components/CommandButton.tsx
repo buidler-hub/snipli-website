@@ -18,6 +18,7 @@ const CommandButton: FC<ICommandButtonProps> = ({
             onClick={() => setCommand(name)}
             cursor="pointer"
             fontSize="sm"
+            w="40"
             mt="2"
             mr="2"
             borderRadius="20px"

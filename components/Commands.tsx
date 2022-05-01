@@ -1,7 +1,7 @@
 import { Create, Delete, Edit, Id, Login, Logout, Read } from '../outputs';
 import CommandButton from './CommandButton';
 import Terminal from './Terminal';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box, Flex, Text } from '@chakra-ui/react';
 import type { NextComponentType, NextPageContext } from 'next';
 import { useState } from 'react';
 
@@ -43,8 +43,24 @@ const Commands: NextComponentType<NextPageContext, {}, Props> = () => {
     };
 
     return (
-        <>
-            <Flex w="100%" mt="40" align="center" justify="center">
+        <Box
+            display="flex"
+            flexDir="column"
+            gap="16"
+            mt="24"
+            justifyContent="center"
+            id="cmnds"
+        >
+            <Text
+                textAlign="center"
+                fontSize="3xl"
+                fontWeight="700"
+                fontFamily="syncopate"
+                textColor="white"
+            >
+                Commands
+            </Text>
+            <Flex w="100%" align="center" dir="column" justify="center">
                 {/* @ts-ignore */}
                 <Terminal>{Commands[command]?.output}</Terminal>
             </Flex>
@@ -53,6 +69,7 @@ const Commands: NextComponentType<NextPageContext, {}, Props> = () => {
                 gridTemplateColumns="repeat(3, 1fr)"
                 justifyItems="center"
                 mt="5"
+                gap="2"
             >
                 {Object.keys(Commands).map(name => (
                     <CommandButton
@@ -63,7 +80,7 @@ const Commands: NextComponentType<NextPageContext, {}, Props> = () => {
                     />
                 ))}
             </Box>
-        </>
+        </Box>
     );
 };
 

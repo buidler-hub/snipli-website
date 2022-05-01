@@ -40,7 +40,9 @@ const Hero: FC = () => {
                 _active={{ bgColor: 'blue.400' }}
                 w="40"
                 h="10"
-                boxShadow="1px 1px 10px 4px rgba(59, 130, 246, 0.25);"
+                boxShadow="1px 1px 10px 4px rgba(59, 130, 246, 0.25)"
+                as="a"
+                href="#cmnds"
             >
                 TRY OUT
             </Button>

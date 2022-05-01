@@ -27,7 +27,7 @@ const Done: NextPage = () => {
                 h="100vh"
             >
                 <Text
-                    bgGradient="linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);"
+                    bgGradient="linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%)"
                     bgClip="text"
                     fontSize="84"
                     as="h3"
