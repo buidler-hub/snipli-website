@@ -1,8 +1,9 @@
+import { Installation } from '../outputs';
 import Terminal from './Terminal';
 import { Flex, Text, Button } from '@chakra-ui/react';
-import type { NextComponentType } from 'next';
+import type { FC } from 'react';
 
-const Hero: NextComponentType = () => {
+const Hero: FC = () => {
     return (
         <Flex
             flexDir="column"
@@ -16,7 +17,7 @@ const Hero: NextComponentType = () => {
         >
             <Text
                 textAlign="center"
-                fontFamily="body"
+                fontFamily="syncopate"
                 fontWeight="700"
                 bgGradient="linear(90deg, #5433FF 0%, #20BDFF 50%, #A5FECB 100%)"
                 bgClip="text"
@@ -43,7 +44,9 @@ const Hero: NextComponentType = () => {
             >
                 TRY OUT
             </Button>
-            <Terminal />
+            <Terminal>
+                <Installation />
+            </Terminal>
         </Flex>
     );
 };

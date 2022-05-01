@@ -1,5 +1,7 @@
 import Header from '../components/Header';
-import { Flex, Image, Text } from '@chakra-ui/react';
+import Terminal from '../components/Terminal';
+import { Done as DoneOutput } from '../outputs';
+import { Flex, Text } from '@chakra-ui/react';
 import type { NextPage } from 'next';
 
 const Done: NextPage = () => {
@@ -30,16 +32,13 @@ const Done: NextPage = () => {
                     fontSize="84"
                     as="h3"
                     fontFamily="Nanum Pen Script"
-                    mb="-50px"
                 >
                     snipli
                 </Text>
 
-                <Image
-                    src="/assets/Terminal-done.svg"
-                    h="450"
-                    alt="snipli terminal authenticated"
-                />
+                <Terminal>
+                    <DoneOutput />
+                </Terminal>
             </Flex>
         </Flex>
     );

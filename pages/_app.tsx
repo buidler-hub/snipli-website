@@ -1,5 +1,7 @@
 import theme from '../theme';
 import { ChakraProvider } from '@chakra-ui/react';
+import '@fontsource/fira-code/400.css';
+import '@fontsource/fira-code/600.css';
 import '@fontsource/nanum-pen-script/400.css';
 import '@fontsource/syncopate/400.css';
 import '@fontsource/syncopate/700.css';
