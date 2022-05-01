@@ -17,7 +17,7 @@ const Delete = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Deleting gist..."
+                        text="⠏ Deleting gist..."
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

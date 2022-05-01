@@ -17,7 +17,7 @@ const Installation = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Installing snipli"
+                        text="⠏ Installing snipli"
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

@@ -17,7 +17,7 @@ const Edit = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Editing gist..."
+                        text="⠏ Editing gist..."
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

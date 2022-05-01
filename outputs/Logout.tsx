@@ -17,7 +17,7 @@ const Logout = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Logging out...."
+                        text="⠏ Logging out...."
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

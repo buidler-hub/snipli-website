@@ -10,13 +10,13 @@ const Read = () => {
     return (
         <Flex flexDir="column" fontSize="lg">
             <CommandText
-                command="snipli read -i id=...605"
+                command="snipli read id=...605"
                 onTypingDone={() => setTimeout(() => setDone(true), 300)}
             />
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Fetching Gist...."
+                        text="⠏ Fetching Gist...."
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

@@ -16,7 +16,7 @@ const Id = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="Fetching ID...."
+                        text="⠏ Fetching ID...."
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }

@@ -19,7 +19,7 @@ const Done = () => {
             {isDone && (
                 <>
                     <SpinnerText
-                        text="You can now close this tab"
+                        text="⠏ You can now close this tab"
                         onTypingDone={() =>
                             setTimeout(() => setIsDone2(true), 300)
                         }
