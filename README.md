@@ -2,6 +2,8 @@
 
 ![og image](https://user-images.githubusercontent.com/76690419/166135561-3e25ced2-fe8c-41e4-b236-f4fd32f20313.png)
 
+<a href="https://www.producthunt.com/posts/snipli?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-snipli" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=344997&theme=dark" alt="Snipli - Convert&#0032;your&#0032;local&#0032;files&#0032;into&#0032;a&#0032;gist&#0032;in&#0032;just&#0032;a&#0032;snap | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> <a href="https://www.producthunt.com/posts/snipli?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-snipli" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=344997&theme=dark&period=daily" alt="Snipli - Convert&#0032;your&#0032;local&#0032;files&#0032;into&#0032;a&#0032;gist&#0032;in&#0032;just&#0032;a&#0032;snap | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 This repository contains the code for snipli's website
 
 🎉 **Core repository**: https://github.com/kira272921/snipli
