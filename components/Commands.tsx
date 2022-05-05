@@ -50,6 +50,7 @@ const Commands: NextComponentType<NextPageContext, {}, Props> = () => {
             mt="24"
             justifyContent="center"
             id="cmnds"
+            mb="32"
         >
             <Text
                 textAlign="center"
