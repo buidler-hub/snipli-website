@@ -36,3 +36,12 @@ To setup local development server:
 - Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
 - Github: [@avneesh0612](https://github.com/avneesh0612)
 - LinkedIn: [@avneesh0612](https://www.linkedin.com/in/avneesh0612)
+
+
+## 🚀 Powered by
+
+<p align="center">
+<a href="https://vercel.com/avneesh0612?utm_source=buidlers-hub&utm_campaign=oss">
+<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"/>
+</a>
+</p>
