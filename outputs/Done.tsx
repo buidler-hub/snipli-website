@@ -38,12 +38,13 @@ const Done = () => {
                                         $
                                     </Text>
                                     <Text as="span" color="white">
-                                        Run{' '}
+                                        Run
                                     </Text>
                                     <Text
                                         bgGradient="linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%)"
                                         fontWeight="600"
                                         bgClip="text"
+                                        pl="1"
                                     >
                                         snipli whoami
                                     </Text>
