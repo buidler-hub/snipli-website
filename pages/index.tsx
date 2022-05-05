@@ -1,4 +1,5 @@
 import Commands from '../components/Commands';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import { Flex } from '@chakra-ui/react';
@@ -14,11 +15,11 @@ const Home: NextPage = () => {
             minH="100vh"
             justifyContent="center"
             background="black"
-            pb="40"
         >
             <Header />
             <Hero />
             <Commands />
+            <Footer />
         </Flex>
     );
 };
