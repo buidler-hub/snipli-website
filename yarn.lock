@@ -1090,15 +1090,15 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fontsource/fira-code@^4.5.9":
-  version "4.5.9"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.9.tgz#8ca3e6020f9d3c340a643c5c0a12b2ebf37dc7a6"
-  integrity sha512-moi9UVTOfQFXjiUAITy5W727dIP6c0K5TGPN+wTaFHn+/5flc/V0Uq9cKTs39yGrPUOneTbuAe8C8q7CzUP4Aw==
+"@fontsource/fira-code@4.5.10":
+  version "4.5.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-code/-/fira-code-4.5.10.tgz#e1060a60d08cba1669e1ff2025350aaab7c0e6bc"
+  integrity sha512-CF6cBJZcpuW+qxtr7JZt3kPwEHj0xWYgsRr7q3tGhkIqEmxdJ6Omvw61LEFQuRXeAwOnXBGZr42qTrO+vCzvAQ==
 
-"@fontsource/nanum-pen-script@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@fontsource/nanum-pen-script/-/nanum-pen-script-4.5.3.tgz#e414d39023bb4b1bf940a3e54cf48f73c5bc184b"
-  integrity sha512-TdTs77+Cisjwn5JCbj5sCUDDOTQNT3GSQXb9DMCNh7CzrdN4ZAVJIM1e8d7RmRoRETE2YvZfabdY/4yxhVTMzw==
+"@fontsource/nanum-pen-script@4.5.5":
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/@fontsource/nanum-pen-script/-/nanum-pen-script-4.5.5.tgz#125121d9cd70b90e4c0878ebbda8dd1220942a5d"
+  integrity sha512-HcCf6BbGIPBCnVvV9an2slBIiSSAgkuyfUPnJ8j5hS1GFhw9ECsOrkVlJ+eXO0SYHM+O09rTmOyfPD3SjR4vSA==
 
 "@fontsource/syncopate@^4.5.7":
   version "4.5.7"
