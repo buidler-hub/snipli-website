@@ -16,8 +16,8 @@
     },
     "dependencies": {
         "@chakra-ui/react": "2.1.2",
-        "@emotion/react": "11.9.0",
-        "@emotion/styled": "11.8.1",
+        "@emotion/react": "11.10.4",
+        "@emotion/styled": "11.10.4",
         "@fontsource/fira-code": "4.5.10",
         "@fontsource/nanum-pen-script": "4.5.5",
         "@fontsource/syncopate": "4.5.7",
